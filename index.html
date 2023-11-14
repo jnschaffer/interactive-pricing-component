@@ -13,6 +13,8 @@
     />
     <link rel="stylesheet" href="style.css" />
 
+		<script type="module" src="script.js"></script>
+
     <title>Frontend Mentor | Interactive pricing component</title>
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -28,28 +30,28 @@
   </head>
   <body>
     <div class="plug">
-			<h1>Simple, traffic-based pricing</h1>
-			<p>Sign-up for our 30-day trial. No credit card required.</p>
-		</div>
+      <h1>Simple, traffic-based pricing</h1>
+      <p>Sign-up for our 30-day trial. No credit card required.</p>
+    </div>
 
     <div class="wrapper">
-			<div class="label">
-				<label for="slider"> <span>100k</span> Pageviews </label>
-				<label for="slider">$<span>16</span> /month</label>
-			</div>
-			<input type="range" name="slider" id="slider" />
-			<label>
-				Monthly Billing <input type="checkbox" name="" id="" /> Yearly Billing
-				<span> 25% discount </span>
-			</label>
-			<hr />
-			<ul>
-				<li>Unlimited websites</li>
-				<li>100% data ownership</li>
-				<li>Email reports</li>
-			</ul>
-			<button>Start my trial</button>
-		</div>
+      <div class="label">
+        <label for="slider" class="uppercase"><span id="label-view">100k</span> Pageviews </label>
+        <label for="slider"><span id="label-cost">$16.00</span> /month</label>
+      </div>
+      <input type="range" name="slider" id="slider" class="slider" min=""/>
+      <label>
+        Monthly Billing <input type="checkbox" name="" id="" /> Yearly Billing
+        <span> 25% discount </span>
+      </label>
+      <hr />
+      <ul>
+        <li>Unlimited websites</li>
+        <li>100% data ownership</li>
+        <li>Email reports</li>
+      </ul>
+      <button>Start my trial</button>
+    </div>
 
     <div class="attribution">
       Challenge by
